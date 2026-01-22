@@ -1,68 +1,50 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: "홍정현 | User-Centric Developer"
+email: "fox0412jh@gmail.com"
+url: "https://swjjeong.github.io"
+description: "금융이 '편안하고 친숙한 일상'이 되도록 만드는 개발자, 홍정현입니다."
+keywords: "핀테크, 백엔드, Spring Boot, React, 홍정현, 포트폴리오"
+# 이력서의 슬로건을 기술 스택과 함께 배치 [cite: 1]
+skills: "Java/Spring Boot - React/Next.js - DevOps/Docker"
+meta_author: "Hong Jeonghyeon"
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+# Contact form
 contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (금융권의 신뢰감을 주는 색상으로 변경 가능)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 2c3e50 # 차분한 네이비 톤
+  primary-rgb: "44,62,80"
+  secondary: 18bc9c # 포인트 그린
+  secondary-dark: 128f76
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: "Hong Jeonghyeon"
+  location: "Address"
+  social: "Social Channels"
+  credits: "Portfolio"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks (이력서 기반 링크) [cite: 3]
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/swjjeong
+  - title: envelope
+    url: mailto:fox0412jh@gmail.com
 
-# Postal address (add as many lines as necessary)
+# Postal address [cite: 3]
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: "경기도 화성시 봉담읍"
+  - line: "중앙대학교 소프트웨어학부"
 
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# Credits content - 정현님의 핵심 성과 강조 [cite: 33, 35]
+credits: 'TOPCIT 수준 3 (실무 전문가) | 2025 청룡톤 대상 수상자'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-#for posts
+# For posts
 defaults:
   - scope:
       path: ""
